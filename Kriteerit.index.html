@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arviointikriteerit</title>
     <link rel="stylesheet" href="tyyli.css">
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      </style>
 </head>
 <body>
     <table>
@@ -15,40 +32,52 @@
         </tr>
       </thead>
       <tbody >
-        <tr><td rowspan="5" style="vertical-align: top;">Tyydyttävä 1</td><td>toteuttaa työn ohjeiden mukaisesti</td></tr>
+      <div> 
+        <tr><th rowspan="5" style="vertical-align: top;">Tyydyttävä 1</th>
+        <td>toteuttaa työn ohjeiden mukaisesti</td></tr>
         <tr><td>toimii yhteistyökykyisesti</td></tr>
         <tr><td>tarvitsee joissakin tilanteissa lisäohjeita</td></tr>
         <tr><td>hyödyntää työssä tarvittavaa perustietoa</td></tr>
         <tr><td>muuttaa toimintaansa saamansa palautteen mukaisesti</td></tr>
-    
-        <tr><td rowspan="5" style="vertical-align: top;">Tyydyttävä 2</td><td>toteuttaa työn oma-aloitteisesti ja ohjeiden mukaisesti</td></tr>
+      </div> 
+      <div>
+        <tr><th rowspan="5" style="vertical-align: top;">Tyydyttävä 2</th>
+        <td>toteuttaa työn oma-aloitteisesti ja ohjeiden mukaisesti</td></tr>
         <tr><td>toimii yhteistyökykyisesti ja vuorovaikutteisesti</td></tr>
         <tr><td>tarvitsee vain harvoissa tilanteissa lisäohjeita</td></tr>
         <tr><td>hyödyntää työssä tarvittavaa tietoa tarkoituksenmukaisesti</td></tr>
         <tr><td>muuttaa toimintaansa saamansa palautteen ja omien havaintojen mukaisesti</td></tr>
-    
-        <tr><td rowspan="5" style="vertical-align: top;">Hyvä 3</td><td>toteuttaa työkokonaisuuden itsenäisesti</td></tr>
+      </div>
+      <div>
+        <tr><th rowspan="5" style="vertical-align: top;">Hyvä 3</th>
+        <td>toteuttaa työkokonaisuuden itsenäisesti</td></tr>
         <tr><td>toimii yhteistyökykyisesti ja aloitteellisesti vuorovaikutustilanteissa</td></tr>
         <tr><td>selviytyy tavanomaisista ongelmanratkaisutilanteista</td></tr>
         <tr><td>hyödyntää työssä tarvittavaa tietoa monipuolisesti</td></tr>
         <tr><td>arvioi suoriutumistaan realistisesti</td></tr>
-    
-        <tr><td rowspan="5" style="vertical-align: top;">Hyvä 4</td><td>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti</td></tr>
+      </div>
+      <div>
+        <tr><th rowspan="5" style="vertical-align: top;">Hyvä 4</th>
+        <td>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti</td></tr>
         <tr><td>toimii yhteistyökykyisesti ja rakentavasti vuorovaikutustilanteissa</td></tr>
         <tr><td>selviytyy ongelmanratkaisutilanteista hyödyntäen monipuolisia ratkaisutapoja</td></tr>
         <tr><td>soveltaa työssä tarvittavaa tietoa monipuolisesti ja perustellusti</td></tr>
         <tr><td>arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan</td></tr>
-    
-        <tr><td rowspan="6" style="vertical-align: top;">Kiitettävä 5</td><td>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti ottaen huomioon muut toimijat</td></tr>
+      </div>
+      <div>
+        <tr><th rowspan="6" style="vertical-align: top;">Kiitettävä 5</th>
+        <td>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti ottaen huomioon muut toimijat</td></tr>
         <tr><td>toimii yhteistyökykyisesti ja rakentavasti haastavissakin vuorovaikutustilanteissa</td></tr>
         <tr><td>arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan</td></tr>
         <tr><td>soveltaa työssä tarvittavaa tietoa ongelmanratkaisutilanteissa monipuolisesti ja kriittisesti</td></tr>
         <tr><td>arvioi suoriutumistaan realistisesti ja esittää perusteltuja ratkaisuja osaamisensa kehittämiseen</td></tr>
         <tr><td>ymmärtää oman työnsä merkityksen osana laajempaa kokonaisuutta</td></tr>
+      </div>
       </tbody>
     </table>
     <button onclick="location.href='index.html';">Etusivu</button>
     <button onclick="location.href='Osaamisen-arviointi.index.html';">Osaamisen arviointi</button>
     <button onclick="location.href='Tutkinnon-muodostuminen.index.html';">Tutkinnon muodostuminen</button>
     <button onclick="location.href='Tutkinnonosat.index.html';">Tutkinnonosat</button>
+</body>
 </html>
